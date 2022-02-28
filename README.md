@@ -53,9 +53,9 @@ $ yarn build
 <br>
 
 ### ✨ 구현 사항 목록 
--   `Next.js`와 `Typescript` 사용
+-   `Typescript`와 `Next.js` 사용
 -    니콘내콘 모바일 웹 페이지와 같은 라우팅
--    base, domain, hooks, pages,styles, types, utils 으로 프로젝트 구조를 나눠 재사용에 용이하게 개발
+-    base, domain, hooks, pages, styles, types, utils 으로 프로젝트 구조를 나눠 재사용에 용이하게 개발
 
 -   [x] 헤더
 
@@ -69,7 +69,7 @@ $ yarn build
 -   [x] 브랜드 페이지 /categories
 
     -   [x] categoryId를 이용한 메뉴바는 페이지 이동
-    -   [x] 브랜드 클릭시 상세 페이지로 이동
+    -   [x] 브랜드 클릭 시 상세 페이지로 이동
     -   [x] 땡처리콘, 까페 등 각 카테고리 페이지 생성
 
 -   [x] 상품 리스트 /brands
@@ -83,7 +83,7 @@ $ yarn build
     -   [x] 옵션 미선택 시 구매하기 버튼 비활성화
 
 -   [x] 고객 센터 /contacts
-    -   [x] 홈 화면의 헤더 좌측 상단 햄버거 메뉴 클릭시 고객 센터 페이지로 이동하는 메뉴 노출
+    -   [x] 홈 화면의 헤더 좌측 상단 햄버거 메뉴 클릭 시 고객 센터 페이지로 이동하는 메뉴 노출
     -   [x] 왼쪽에서 오른쪽으로 화면을 100% 덮는 애니메이션
     -   [x] 구매 / 판매 탭 구현 및 QnA 리스트 dropdown 구현
 
