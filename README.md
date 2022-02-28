@@ -32,15 +32,6 @@ $ yarn build
 
 <br>
 
-## 😎 팀원
-
-| [김지영(팀장)](https://github.com/Jeong-jeong)                                                                                    | [고병표](https://github.com/kokoball)                                                                                            | [유제호](https://github.com/ludacirs)                                                                                           | [홍수연](https://github.com/suyeon-hong)                                                                                         |
-| --------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------- |
-| <img src="https://user-images.githubusercontent.com/68528752/153546074-abd9a7df-771c-4f14-8a2f-a77246210b1c.jpeg" width="400px"/> | <img src="https://user-images.githubusercontent.com/68528752/153546140-b58f43fe-4730-46ca-bfda-0b048f36d24f.JPG" width="400px"/> | <img src="https://user-images.githubusercontent.com/68528752/153545718-c688e091-53a3-4e30-97fd-a2f00ab97aa8.JPG" width="400px"> | <img src="https://user-images.githubusercontent.com/68528752/153545721-ecc413f4-9d1b-45e0-9909-423c27128b1c.jpeg" width="400px"> |
-| [🚀 회고](https://velog.io/@jeongs/3주차-회고)                                                                                    |                                                                                                                                  |                                                                                                                                 |                                                                                                                                  |
-
-<br>
-
 ## 🔥 프로젝트 과정 소개
 
 | 실시간 회의                                                                                                          | Issue 트래킹 및 PR 분배                                                                                            |
@@ -53,31 +44,42 @@ $ yarn build
 
 <br>
 
-### 📝 기능 목록 명세
+### ✨ 구현 사항 목록 
+-   `Next.js`와 `Typescript` 사용
+-    니콘내콘 모바일 웹 페이지와 같은 라우팅
+-    base, domain, hooks, pages,styles, types, utils 으로 프로젝트 구조를 나눠 재사용에 용이하게 개발
 
-#### ✔ 김지영
+-   [x] 헤더
 
-- 프로젝트 기초 세팅
-- favicon 및 메타정보 설정
-- `Dropdowns`, `Swiper` 컴포넌트 구현
-- `contacts` 페이지 구현
+    -   [x] 햄버거 버튼을 이용한 홈 메뉴 이동, 홈이 아닐 경우 왼쪽 상단에 뒤로가기 버튼 or 오른쪽 상단에 X 버튼 
 
-#### ✔ 고병표
+-   [x] 홈 /main
 
-- `button`, `Header`, `Drawer` 컴포넌트 구현
-- `main` 페이지 구현
+    -   [x] 홈 Swiper 라이브러리 없이 랜덤 이미지로 직접 구현
+    -   [x] API를 이용한 브랜드 메뉴, 땡처리 리스트 출력 (API)
 
-#### ✔ 유제호
+-   [x] 브랜드 페이지 /categories
 
-- `NavigationBar`, `ProductionList` 컴포넌트 구현
-- `categories/brands` 페이지 구현
-- 각 페이지 api 로직 구현
-- 배포
+    -   [x] categoryId를 이용한 메뉴바는 페이지 이동
+    -   [x] 브랜드 클릭시 상세 페이지로 이동
+    -   [x] 땡처리콘, 까페 등 각 카테고리 페이지 생성
 
-#### ✔ 홍수연
+-   [x] 상품 리스트 /brands
 
-- `OptionBox`, `CategoryList` 컴포넌트 구현
-- `items` 페이지 구현
+    -   [x] API를 이용한 각 상품 리스트 출력
+    -   [x] 브랜드, 이미지, 상품명, 할인율, 할인가, ~~정가~~
+
+-   [x] 상품 상세 /items
+
+    -   [x] 옵션 선택 버튼 클릭 시 옵션 선택하기 창 노출
+    -   [x] 옵션 미선택 시 구매하기 버튼 비활성화
+
+-   [x] 고객 센터 /contacts
+    -   [x] 홈 화면의 헤더 좌측 상단 햄버거 메뉴 클릭시 고객 센터 페이지로 이동하는 메뉴 노출
+    -   [x] 왼쪽에서 오른쪽으로 화면을 100% 덮는 애니메이션
+    -   [x] 구매 / 판매 탭 구현 및 QnA 리스트 dropdown 구현
+
+
 
 <br>
 <br>
